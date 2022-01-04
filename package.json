@@ -1,0 +1,18 @@
+{
+  "name": "notion-deadlineplanner",
+  "version": "1.0.0",
+  "description": "Schedule regular-intervaled events into your Notion database!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Tae Kyu Kim",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.4.11",
+    "dotenv": "^10.0.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
